@@ -1,0 +1,60 @@
+warning: LF will be replaced by CRLF in genetic_algo.ipynb.
+The file will have its original line endings in your working directory
+[1mdiff --git a/genetic_algo.ipynb b/genetic_algo.ipynb[m
+[1mindex 2662ee2..0afe4e3 100644[m
+[1m--- a/genetic_algo.ipynb[m
+[1m+++ b/genetic_algo.ipynb[m
+[36m@@ -246,13 +246,50 @@[m
+   },[m
+   {[m
+    "cell_type": "code",[m
+[31m-   "execution_count": null,[m
+[32m+[m[32m   "execution_count": 3,[m
+    "metadata": {},[m
+[31m-   "outputs": [],[m
+[32m+[m[32m   "outputs": [[m
+[32m+[m[32m    {[m
+[32m+[m[32m     "name": "stdout",[m
+[32m+[m[32m     "output_type": "stream",[m
+[32m+[m[32m     "text": [[m
+[32m+[m[32m      "this is seen\n"[m
+[32m+[m[32m     ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m     "data": {[m
+[32m+[m[32m      "text/plain": [[m
+[32m+[m[32m       "2"[m
+[32m+[m[32m      ][m
+[32m+[m[32m     },[m
+[32m+[m[32m     "execution_count": 3,[m
+[32m+[m[32m     "metadata": {},[m
+[32m+[m[32m     "output_type": "execute_result"[m
+[32m+[m[32m    }[m
+[32m+[m[32m   ],[m
+    "source": [[m
+[31m-    "\n",[m
+[32m+[m[32m    "s = \"abccbaabccba\"\n",[m
+[32m+[m[32m    "# Your code here\n",[m
+[32m+[m[32m    "all_str = [f\"{big}\" for big in \"abcdefghijklmnopqrstuvwxyz\" ]\n",[m
+[32m+[m[32m    "count = {a:0 for a in all_str}\n",[m
+[32m+[m[32m    "for i in range(0,len(s)):\n",[m
+[32m+[m[32m    "    if s[i] in all_str:\n",[m
+[32m+[m[32m    "        count[s[i]]+=1\n",[m
+[32m+[m[32m    "y = []\n",[m
+[32m+[m[32m    "for i in all_str:\n",[m
+[32m+[m[32m    "    if count[i] != 0:\n",[m
+[32m+[m[32m    "        y.append(count[i])\n",[m
+[32m+[m[32m    "print('this is seen')\n",[m
+[32m+[m[32m    "min(y)\n",[m
+     "\n"[m
+    ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": null,[m
+[32m+[m[32m   "metadata": {},[m
+[32m+[m[32m   "outputs": [],[m
+[32m+[m[32m   "source": [][m
+   }[m
+  ],[m
+  "metadata": {[m
